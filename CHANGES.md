@@ -8,5 +8,5 @@
 
 ## 0.026 [unreleased]
 
-- Correct szError type from `LPSTR[]` to `CHAR[]` by Shaun Lowry [#2](https://github.com/perl-libwin32/win32-pipe/pull/2)
+- Correct szError type from `LPSTR[]` to `CHAR[]` by Shaun Lowry ([@shaunmlowry](https://github.com/shaunmlowry)) [#2](https://github.com/perl-libwin32/win32-pipe/pull/2)
 - Add const to string-literal parameters in `Pipe.xs` to silence `-Wwrite-strings` warnings
