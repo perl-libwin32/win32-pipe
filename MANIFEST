@@ -1,12 +1,13 @@
 Cpipe.cpp
 Cpipe.hpp
+LICENSE
 MANIFEST
 META.yml
 Makefile.PL
 Pipe.h
 Pipe.pm
 Pipe.xs
-README
+README.md
 eg/Client.pl
 eg/Server.pl
 eg/test.bat
