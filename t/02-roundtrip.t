@@ -24,7 +24,7 @@ ok($server->Write('ping'), 'server wrote ping');
 my $reply = $server->Read;
 is($reply, 'pong', 'server received pong from client');
 
-ok($server->Disconnect, 'server disconnected');
+is($server->Disconnect, 1, 'server disconnected');
 $server->Close;
 
 waitpid($pid, 0);
