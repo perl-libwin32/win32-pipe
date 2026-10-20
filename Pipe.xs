@@ -304,7 +304,7 @@ XS(XS_WIN32__Pipe_Disconnect)
 	int		iResult = 0;
 	int		iPurge = 0;
 
-	if(items > 0 && items < 3){
+	if(items < 1 || items > 2){
 		CROAK("usage: Disconnect($PipeHandle [, $iPurge]);\n");
 	}
 	Pipe = INT2PTR(class CPipe *, SvIV(ST(0)));
